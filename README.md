@@ -18,7 +18,7 @@ Use
 Add the plugin to your rebar config:
 
     {plugins, [
-        {rebar3_abnf_compiler, {git, "https://github.com/rbkmoney/rebar3_abnf_compiler.git", {tag, "0.1.0"}}}
+        {rebar3_abnf_compiler, "0.1.0"}
     ]}.
 
 Following config options supported:
