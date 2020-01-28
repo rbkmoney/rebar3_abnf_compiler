@@ -24,6 +24,7 @@ Add the plugin to your rebar config:
 Following config options supported:
     
     {abnf_opts, [
-        binary, % return result in binary instead of list
+        {parser, abnfc_rfc4234 | abnfc_rfc4234ext} % Parser generator, default abnfc_rfc4234
+        binary, % generate parser generator with binary literals instead of list
         verbose % verbose mode
     ]}.
