@@ -89,6 +89,8 @@ filter_opts(Opts) ->
     lists:filter(
         fun (binary) -> true;
             (verbose) -> true;
+            ({parser, abnfc_rfc4234}) -> true;
+            ({parser, abnfc_rfc4234ext}) -> true;
             (_) -> false
         end,
         Opts
