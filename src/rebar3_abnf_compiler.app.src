@@ -7,5 +7,5 @@
     abnfc
    ]},
   {licenses, ["Apache 2.0"]},
-  {links, [{"Github", "https://github.com/kpy3/rebar3_abnf_compiler.git"}]}
+  {links, [{"Github", "https://github.com/rbkmoney/rebar3_abnf_compiler.git"}]}
  ]}.
