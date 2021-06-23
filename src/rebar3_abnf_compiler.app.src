@@ -1,6 +1,6 @@
 {application, rebar3_abnf_compiler,
  [{description, "A ABNF compiler for rebar3 3.7+"},
-  {vsn, "0.1.2"},
+  {vsn, "0.1.3"},
   {applications,
    [kernel,
     stdlib,
